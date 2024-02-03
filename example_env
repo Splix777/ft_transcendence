@@ -1,0 +1,53 @@
+POSTGRES_DB=pdb
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=123
+POSTGRES_HOST=db
+POSTGRES_PORT=5432
+
+PGADMIN_DEFAULT_EMAIL=admin@admin.com
+PGADMIN_DEFAULT_PASSWORD=123
+
+DJANGO_SECRET_KEY='django-insecure-(bx@(drlf+o=b389$a8sn25d1(+bj@+)t=7b_bwuv!7&!fl(()'
+
+DJANGO_DEBUG=True
+DJANGO_SETTINGS_MODULE=server.settings
+
+JWT_SEED="hola"
+
+# INTRA_REDIRECT_URI=http://c3r6s1.42madrid.com:3000/intra
+# INTRA_CLIENT_ID=u-s4t2ud-58fd514e6735ff16884eaf25f822d69c4017e434645bc86ecdd437303a6a927b
+# INTRA_CLIENT_SECRET=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
+
+
+# INTRA_REDIRECT_URI=http://localhost:3000/intra
+# INTRA_CLIENT_ID=u-s4t2ud-134a9b8cc22ff735969eb257a8277778c7bbea21cb81e5175a17a2208db4b5a6
+# INTRA_CLIENT_SECRET=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
+
+# FRONTEND_URL=http://c3r6s1.42madrid.com:3000
+# DJANGO_BACKEND_URL=http://c3r6s1.42madrid.com:8000
+# DAPHNE_URL=ws://c3r6s1.42madrid.com:8001
+
+
+INTRA_REDIRECT_URI=https://c3r1s1.42madrid.com:3000/intra
+INTRA_CLIENT_ID=u-s4t2ud-ed2b480348adba622d196e2946cdcac6a7666264881221b19154fe4f00fac256
+INTRA_CLIENT_SECRET=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
+
+
+# FRONTEND_URL=http://c2r9s5.42madrid.com:3000
+# DJANGO_BACKEND_URL=http://c2r9s5.42madrid.com:8000
+# DAPHNE_URL=ws://c2r9s5.42madrid.com:8001
+
+
+# FRONTEND_URL=http://localhost:3000
+# DJANGO_BACKEND_URL=http://localhost:8000
+# DAPHNE_URL=ws://localhost:8001
+
+
+FRONTEND_URL=https://localhost:3000
+DJANGO_BACKEND_URL=https://localhost:3000
+DAPHNE_URL=wss://localhost:3000
+
+
+# FRONTEND_URL=https://c3r1s1.42madrid.com:3000
+# DJANGO_BACKEND_URL=https://c3r1s1.42madrid.com:3000
+# DAPHNE_URL=wss://c3r1s1.42madrid.com:3000
