@@ -1,0 +1,71 @@
+<div class="tournament-div">
+  <div class="container-fluid">
+    <h2 class="center-fixed-heading">Tournaments</h2>
+  </div>
+  <div class="container-fluid d-flex align-items-center justify-content-center" style="height: 50vh;">
+    <div class="row justify-content-center">
+      <div class="col-md-6 mt-1 tournaments-box">
+        <div id="tournaments" style="padding-top: 10px;"></div>
+        <button
+          type="button"
+          class="btn btn-primary mb-2"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="background-color: #15142E; color: fffeee;"
+        >
+          Create a Tournament!
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div
+    class="modal fade"
+    id="exampleModal"
+    tabindex="-1"
+    aria-labelledby="exampleModalLabel"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content" style="background: #191f38; ">
+        <div class="modal-header">
+          <h5 class="modal-title text-light" id="exampleModalLabel">
+            Create a Tournament!
+          </h5>
+          <span class="close-modal" data-bs-dismiss="modal" style="font-size: 24px; color: red; padding: 10px;">×</span>
+        </div>
+        <form id="createTornForm">
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="nameTournament"></label>
+              <input
+                type="text"
+                class="form-control"
+                id="nameTournament"
+                placeholder="Enter a name"
+              />
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="submit"
+              class="btn btn-primary"
+              ata-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

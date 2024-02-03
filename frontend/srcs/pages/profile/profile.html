@@ -1,0 +1,62 @@
+<div style="margin-top: 6rem;">
+    <div class="text-center">
+        <div class="row justify-content-center">
+            <div class="form-group col-md-4 mb-2">
+                <input class="form-control input-signup" type="text" id="searchUsername" placeholder="Search friend">
+            </div>
+        </div>
+        <button class="btn bg-white" onclick="searchUser()">Search</button>
+    </div>
+    
+    <div class="text-center" style="padding-top: 50px;">
+        <img src="./srcs/assets/imgs/default-avatar.jpeg" alt="" srcset="" id="avatarImageUser" style="width: 350px;"> 
+        <h3 id="user-username">Username</h3>
+
+        <a href="/profilesettings" class="btn bg-white">
+          Profile Settings
+        </a>       
+
+        <h3 style="margin-top: 6rem;">Your Stats</h3>
+    </div>
+    
+
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-3 border-white" style="border-right: solid;">
+              <p id="gamesPlayed" class="text-center">Games Played</p>
+              <h3 id="gamesPlayedNumber" class="text-center">0</h3>
+          </div>
+          <div class="col-3 border-white" style="border-right: solid;">
+              <p id="wins" class="text-center">Wins</p>
+              <h3 id="winsNumber" class="text-center">0</h3>
+          </div>
+          <div class="col-3 border-white" style="border-right: solid;">
+              <p id="winRate" class="text-center">Win Rate</p>
+              <h3 id="winRateNumber" class="text-center">0%</h3>
+          </div>
+          <div class="col-3">
+              <p id="tournamentsWon" class="text-center">Tournaments Won</p>
+              <h3 id="tournamentsWonNumber" class="text-center">0</h3>
+          </div>
+
+            <!-- Match history column with scrolling container -->
+            <div class="col-12 mt-4 text-center">
+                <h3 class="mb-3">Match History</h3>
+                <div id="matchHistoryContainer" class="match-history-container mx-auto pb-3"> <!-- Added 'mx-auto' for horizontal centering -->
+                    <ul id="matchHistoryList" class="list-group">
+                        <!-- Match history items will be dynamically added here -->
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+
+</div>
+
+
+max-width: 500px;
+max-height: 200px;
+overflow-y: auto;
+border: 1px solid #ffffff;
+padding: 10px;
+margin-bottom: 30px; /* Add margin at the bottom */
